@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containers{
+  margin-top: 30px;
+}
+.containers>*{
+  display: flex;
+}
+
+.normal-gun, .debounce-gun, .throttle-gun{
+
+  height: 100px;
+  width: 200px;
+
+  border-top: 40px solid red;
+  border-left: 20px solid red;
+  margin: 30px 80px;
+  cursor: pointer;
+}
+
+.bullet{
+  background-color: black;
+  height: 15px;
+  width: 50px;
+  margin-top: 43px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: -30px;
+}
+
+.containers span{
+  background-color: blueviolet;
+  color: white;
+  height: 100px;
+  min-width: 100px;
+  border-radius: 60px;
+  margin-left: 60px;
+  margin-top: 5px;
+  text-align: center;
+  align-items: center;
+  padding-top: 37px ;
+  font-weight: 600;
+  font-size: 20px;
+}
+

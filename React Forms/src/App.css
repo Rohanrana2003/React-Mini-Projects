@@ -1,0 +1,176 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1280px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* --------------NAVBAR------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 70px;
+}
+nav img{
+    max-width:80px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+}
+/* ------------------------------------ */
+
+/* ---------------PAGE------------------ */
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.heading{
+    padding: 0 70px;
+}
+.heading h1{
+    font-weight: 900;
+}
+.heading p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 220px;
+    min-height: 44px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+#email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 460px;
+    min-height: 44px;
+    cursor: pointer;
+    font-weight: 800;
+}
+#msg{
+    filter: invert();
+}
+
+
+form{
+    margin: 0 auto;
+    position: relative;
+}
+form>*{
+    margin: 10px;
+    min-width: 395px;
+}
+
+form input{
+    min-height: 35px;
+    font-size: large;
+    padding: 0 20px;
+}
+
+form textarea{
+    min-height: 100px;
+    font-size: large;
+    padding: 0 20px;
+}
+
+#name{
+    background-color: white;
+    position: absolute;
+    font-weight: 700;
+    width: 30px;
+    top: -9px;
+    left: 20px;
+    min-width: 44px;
+}
+#mail{
+    background-color: white;
+    position: absolute;
+    font-weight: 700;
+    width: 30px;
+    top: 50px;
+    left: 20px;
+    min-width: 43px;
+}
+#text{
+    background-color: white;
+    position: absolute;
+    font-weight: 700;
+    top: 110px;
+    left: 20px;
+    min-width: 19px;
+}
+
+#girl{
+    max-width: 508px;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 220px;
+    min-height: 44px;
+    cursor: pointer;
+    font-weight: 600;
+    position: absolute;
+    bottom: -42px;
+    right: 0;
+}

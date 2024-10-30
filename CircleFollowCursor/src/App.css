@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}
+
+.circle{  
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+  border-radius: 100px;
+}
